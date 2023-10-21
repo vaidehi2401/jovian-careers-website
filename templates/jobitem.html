@@ -3,5 +3,5 @@
 {%if 'salary' in job %}
 <div><b>Salary:</b>{{job['salary']}}</div></div>
 <div class = "col-3">
-  <button type="button" class="btn btn-outline-primary">Apply</button></div>
+  <a href ="mailto:vaidehi.dhole@kratin.co.in?subject=Applying%20for%20position%20{{job['title']}}%20at%20Jovian&body=Enter%20your%20name%3A%20%0AEnter%20your%20qualifications%3A%0A%0AEnter%20your%20linked%20in%3A" type ="button" class="btn btn-outline-primary float-right align-middle">Apply</a></div>
 {% endif %} </div>
